@@ -1,0 +1,20 @@
+
+
+.make {
+  margin: 10px 0;
+  display: block;
+}
+#real-one {
+  border: 1px solid pink;
+  width: 1000px;
+  height: 500px;
+  user-select: none;
+}
+#mojies canvas {
+  width: 128px;
+  height: 128px;
+  /*display: none;*/
+}
+input {
+  font-size: 36px;
+}
