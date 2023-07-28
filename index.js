@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
   cw = new CanvasWriter(document.getElementById("real-one"));
 
   const input = document.getElementById("moje")
-  if (!input.value.length) input.value = localStorage.lastEmoje || "";
+  if (!input.value.length) input.value = localStorage.lastEmoje || "🥥";
 
   // TODO ugh global TODO
   // mojeCanvas = doSecretEmojiCanvas("single-moje", input.value);
